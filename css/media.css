@@ -1,5 +1,146 @@
-/* @media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .container {
-    padding: 0 22px;
+    padding: 10px 34px;
   }
-} */
+
+  .header__name {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .header__logo-img {
+    max-width: 132px;
+  }
+
+  .header__phone-item {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+  }
+
+  .section__one-container {
+    padding: 0px 84px;
+    padding-bottom: 63px;
+  }
+
+  .section__one-list {
+    padding: 0px 65px;
+  }
+
+  .section__one-list-item {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .section__one-list-item:not(:last-child) {
+    margin-bottom: 33px;
+  }
+
+  .btn_order {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    padding: 27px 64px;
+  }
+
+  .section__two-container {
+    padding: 0px 34px;
+    padding-bottom: 93px;
+  }
+
+  .section__two-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 30px;
+  }
+
+  .section__two-list {
+    flex-wrap: wrap;
+  }
+
+  .section__two-list-item {
+    word-break: break-word;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    padding: 25px 5px;
+    width: 324px;
+    min-height: 334px;
+  }
+
+  .section__two-list-item:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 10px 14px;
+  }
+
+  .header__name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+  }
+
+  .header__logo-img {
+    max-width: 54px;
+  }
+
+  .header__phone-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  .header__phone-list:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .section__one-container {
+    padding: 0px 28px;
+    padding-bottom: 34px;
+  }
+
+  .section__one-list {
+    padding: 0px 20px;
+    margin-bottom: 33px;
+  }
+
+  .section__one-img {
+    max-width: 264px;
+  }
+
+  .section__one-list-item {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .section__one-list-item:not(:last-child) {
+    margin-bottom: 13px;
+  }
+
+  .btn_order {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    padding: 12px 31px;
+  }
+
+  .section__two-container {
+    padding: 0px 39px;
+    padding-bottom: 60px;
+  }
+
+  .section__two-header {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+}
