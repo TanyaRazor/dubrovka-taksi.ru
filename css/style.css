@@ -152,11 +152,11 @@ body {
 }
 
 .section__one-list-item:not(:last-child) {
-  margin-bottom: 59px;
+  /* margin-bottom: 59px; */
 }
 
 .section__one-list-subitem {
-  display: none;
+  visibility: hidden;
 }
 
 .btn_order {
