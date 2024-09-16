@@ -155,6 +155,10 @@ body {
   margin-bottom: 59px;
 }
 
+.section__one-list-subitem {
+  display: none;
+}
+
 .btn_order {
   font-size: 64px;
   font-weight: 700;
