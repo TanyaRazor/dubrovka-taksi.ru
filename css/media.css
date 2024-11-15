@@ -34,10 +34,6 @@
     line-height: 44px;
   }
 
-  .section__one-list-item:not(:last-child) {
-    margin-bottom: 33px;
-  }
-
   .btn_order {
     font-size: 48px;
     font-weight: 700;
@@ -69,10 +65,12 @@
     padding: 25px 5px;
     width: 324px;
     min-height: 334px;
+    margin: auto 3%;
+    margin-bottom: 33px;
   }
 
-  .section__two-list-item:not(:last-child) {
-    margin-bottom: 50px;
+  .section__two-list-item:nth-child(2n+1) {
+    margin-right: 25px;
   }
 }
 
@@ -130,6 +128,22 @@
     font-weight: 700;
     line-height: 29px;
     padding: 12px 31px;
+  }
+
+  .section__two-list {
+    flex-direction: column;
+  }
+
+  .section__two-list-item {
+    margin: auto;
+  }
+
+  .section__two-list-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .section__two-list-item:nth-child(2n+1) {
+    margin-right: 0px;
   }
 
   .section__two-container {
